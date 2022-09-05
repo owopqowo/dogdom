@@ -44,3 +44,16 @@ input{
   -webkit-appearance: none;
   border-radius: 0;
 }
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+html,
+input,
+select,
+textarea,
+button {
+  font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+}

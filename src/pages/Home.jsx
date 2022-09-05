@@ -1,9 +1,9 @@
-import './Home.scss'
+import Button from '../components/button'
 
-function Home() {
+function Home({logout}) {
   return (
     <div className="home">
-      home
+      <Button onClick={logout}>로그아웃</Button>
     </div>
   )
 }
